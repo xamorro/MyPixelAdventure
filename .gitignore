@@ -39424,9 +39424,19 @@ Library/ArtifactDB-lock
 Library/ArtifactDB
 Library/APIUpdater/project-dependencies.graph
 Library/AnnotationManager
+<<<<<<< Updated upstream
 >>>>>>> fdab8dae70bf09fe9a8c1b4bf11e14bbd40a3ef2
+=======
+>>>>>>> Stashed changes
 Temp/workerlic
 Temp/UnityLockfile
 Temp/FSTimeGet-92193f94cd57c1144940b3e3118089aa
 Temp/FSTimeGet-4085a9f116ef5e747b9d7afb0637c521
+<<<<<<< Updated upstream
 Library/EditorInstance.json
+=======
+Logs/shadercompiler-AssetImportWorker0.log
+Logs/AssetImportWorker0.log
+Library/EditorInstance.json
+Library/Artifacts/9d/9d282097a08c7e45f8f9bde5481ec29e
+>>>>>>> Stashed changes
