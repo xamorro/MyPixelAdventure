@@ -9,6 +9,7 @@ TagManager:
   - SoundManager
   - GameManager
   - Enemy
+  - Death
   layers:
   - Default
   - TransparentFX

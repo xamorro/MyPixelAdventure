@@ -1868,8 +1868,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a3ab1ce096ea94583c1fb01706f427, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFXEnabled: 1
-  isMusicEnabled: 1
+  isGameOver: 0
+  isLevelRestarted: 0
+  isLevelCompleted: 0
+  isGameCompleted: 0
 --- !u!1 &1745293490
 GameObject:
   m_ObjectHideFlags: 0
@@ -2100,6 +2102,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e548ac07a79174e8641824e1999f15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isFXEnabled: 1
+  isMusicEnabled: 1
+  musicVolume: 0
+  fxVolume: 0
   EffectsSource: {fileID: 200564883}
   MusicSource: {fileID: 1432372596}
   menuMusic: {fileID: 8300000, guid: ee6ec3128b4213c429b81a3da82f43c3, type: 3}
@@ -2109,8 +2115,6 @@ MonoBehaviour:
   finishedFX: {fileID: 8300000, guid: 5cdd3893bdcf2f840b2d7a63b4ee99d1, type: 3}
   deadFX: {fileID: 8300000, guid: d85eb99c5f67f6142a677ac013a35570, type: 3}
   game: {fileID: 1743165092}
-  LowPitchRange: 0.95
-  HighPitchRange: 1.05
 --- !u!1 &1880814304
 GameObject:
   m_ObjectHideFlags: 0

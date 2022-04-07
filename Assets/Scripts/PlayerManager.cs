@@ -59,9 +59,9 @@ public class PlayerManager : MonoBehaviour {
                 GetComponent<Rigidbody2D>().velocity = new Vector2(0,jumpSpeed);
             }
 
-            if ((transform.position.y < -12f) && !isDead){
+            /*if ((transform.position.y < -12f) && !isDead){
                 KillPlayer();
-            }
+            }*/
         }
     }
 
@@ -130,7 +130,7 @@ public class PlayerManager : MonoBehaviour {
     }
 
     void OnCollisionEnter2D(Collision2D c) {
-        if (c.gameObject.CompareTag("Trap") || c.gameObject.CompareTag("Enemy")) {
+        if (c.gameObject.CompareTag("Trap") || c.gameObject.CompareTag("Death") || c.gameObject.CompareTag("Enemy")) {
             KillPlayer();
         }
     }
