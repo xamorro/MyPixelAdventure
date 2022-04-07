@@ -21,8 +21,8 @@ public class ItemCollector : MonoBehaviour
             items++;
             itemsText.text = "Items: " + items;
             col.gameObject.GetComponent<Animator>().SetTrigger("collected");
-            sndManager.GetComponent<SoundManager>().playFX(1);
-            //Destroy(col.gameObject);
+            sndManager.GetComponent<SoundManager>().PlayFX(1);
+            Destroy(col.gameObject);
         }
     }
 

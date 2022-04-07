@@ -514,7 +514,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1460280816}
         m_TargetAssemblyTypeName: OptionsMenuManager, Assembly-CSharp
-        m_MethodName: setVolumeMusic
+        m_MethodName: SetVolumeMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1154,7 +1154,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1460280816}
         m_TargetAssemblyTypeName: OptionsMenuManager, Assembly-CSharp
-        m_MethodName: enableFX
+        m_MethodName: EnableFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1724,7 +1724,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1460280816}
         m_TargetAssemblyTypeName: OptionsMenuManager, Assembly-CSharp
-        m_MethodName: enableMusic
+        m_MethodName: EnableMusic
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1951,7 +1951,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1460280816}
         m_TargetAssemblyTypeName: OptionsMenuManager, Assembly-CSharp
-        m_MethodName: setVolumeFX
+        m_MethodName: SetVolumeFX
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

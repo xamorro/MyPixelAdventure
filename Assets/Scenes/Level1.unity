@@ -51382,6 +51382,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4843930904919156721, guid: 2c5ce24d8d7309b458e38d8a67a4fcd2, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9aa50dcc0e909664d9664bcc2d5a07c4, type: 3}
+    - target: {fileID: 4843930904919156721, guid: 2c5ce24d8d7309b458e38d8a67a4fcd2, type: 3}
       propertyPath: rolloffMode
       value: 0
       objectReference: {fileID: 0}
@@ -51658,6 +51662,10 @@ PrefabInstance:
       propertyPath: MinDistance
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3674395243717694259, guid: 31c92405ce30fc44ab84b79a5fab2053, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9aa50dcc0e909664d9664bcc2d5a07c4, type: 3}
     - target: {fileID: 3674395243717694259, guid: 31c92405ce30fc44ab84b79a5fab2053, type: 3}
       propertyPath: rolloffMode
       value: 2

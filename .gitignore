@@ -39425,3 +39425,8 @@ Library/ArtifactDB
 Library/APIUpdater/project-dependencies.graph
 Library/AnnotationManager
 >>>>>>> fdab8dae70bf09fe9a8c1b4bf11e14bbd40a3ef2
+Temp/workerlic
+Temp/UnityLockfile
+Temp/FSTimeGet-92193f94cd57c1144940b3e3118089aa
+Temp/FSTimeGet-4085a9f116ef5e747b9d7afb0637c521
+Library/EditorInstance.json

@@ -30,7 +30,7 @@ public class SoundManager : MonoBehaviour {
 	}
 
 	// Play a single clip through the sound effects source.
-	public void play(AudioClip clip) {
+	public void Play(AudioClip clip) {
 		if (isFXEnabled) {
 			EffectsSource.clip = clip;
 			EffectsSource.Play();
@@ -38,7 +38,7 @@ public class SoundManager : MonoBehaviour {
 	}
 
 	// Play a single clip through the music source.
-	public void playMusic(AudioClip clip) {
+	public void PlayMusic(AudioClip clip) {
 		if (isMusicEnabled) {
 			MusicSource.enabled = true;
 			MusicSource.loop = true;
@@ -47,7 +47,7 @@ public class SoundManager : MonoBehaviour {
 		}
 	}
 	
-	public void playFX(int i) {
+	public void PlayFX(int i) {
 		if (isFXEnabled) {
 			EffectsSource.enabled = true;
 
@@ -65,7 +65,7 @@ public class SoundManager : MonoBehaviour {
 	}
 
 	// Play a single clip through the music source.
-	public void playMusic(int i) {
+	public void PlayMusic(int i) {
 		if (isMusicEnabled) {
 			MusicSource.enabled = true;
 			MusicSource.loop = true;
@@ -78,30 +78,30 @@ public class SoundManager : MonoBehaviour {
 		}
 	}
 
-	public void stopMusic() {
+	public void StopMusic() {
 		MusicSource.Stop();
 	}
 
-	public void setMusicVolume(float f) {
+	public void SetMusicVolume(float f) {
 		musicVolume = f;
 		MusicSource.volume = f;
 	}
 
-	public void setFXVolume(float f) {
+	public void SetFXVolume(float f) {
 		fxVolume = f;
 		EffectsSource.volume = f;
 	}
 
-	public void setEnableFX(bool b) {
+	public void SetEnableFX(bool b) {
 		isFXEnabled = b;
-		if (b) playFX(0);
+		if (b) PlayFX(0);
 	}
 
-	public void setEnableMusic(bool b) {
+	public void SetEnableMusic(bool b) {
 		isMusicEnabled = b;
 		if (!b) 
-			stopMusic();
+			StopMusic();
 		else
-			playMusic(0);
+			PlayMusic(0);
 	}
 }

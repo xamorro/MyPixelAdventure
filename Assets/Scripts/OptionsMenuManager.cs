@@ -23,30 +23,30 @@ public class OptionsMenuManager : MonoBehaviour {
     
     void ScrollbarCallBack(float f) {
         if (f > 0)
-            snd.GetComponent<SoundManager>().playFX(0);
+            snd.GetComponent<SoundManager>().PlayFX(0);
     }
 
-    public void setVolumeMusic() {
+    public void SetVolumeMusic() {
         //snd.GetComponent<SoundManager>().musicVolume = scBarMusic.value;
-        snd.GetComponent<SoundManager>().setMusicVolume(scBarMusic.value);
+        snd.GetComponent<SoundManager>().SetMusicVolume(scBarMusic.value);
         PlayerPrefs.SetFloat("musicVolume", scBarMusic.value);
     }
 
-    public void setVolumeFX() {
+    public void SetVolumeFX() {
         //snd.GetComponent<SoundManager>().fxVolume = scBarFX.value;
-        snd.GetComponent<SoundManager>().setFXVolume(scBarFX.value);
+        snd.GetComponent<SoundManager>().SetFXVolume(scBarFX.value);
         PlayerPrefs.SetFloat("fxVolume", scBarFX.value);
     }
 
-    public void enableMusic() {
+    public void EnableMusic() {
         //snd.GetComponent<SoundManager>().isMusicEnabled = togMusic.isOn;
-        snd.GetComponent<SoundManager>().setEnableMusic(togMusic.isOn);
+        snd.GetComponent<SoundManager>().SetEnableMusic(togMusic.isOn);
         PlayerPrefs.SetInt("music", togMusic.isOn==true?1:0);
     }
 
-    public void enableFX(){
+    public void EnableFX(){
         //snd.GetComponent<SoundManager>().isFXEnabled = togFX.isOn;
-        snd.GetComponent<SoundManager>().setEnableFX(togFX.isOn);
+        snd.GetComponent<SoundManager>().SetEnableFX(togFX.isOn);
         PlayerPrefs.SetInt("fx", togFX.isOn==true?1:0);
     }
 
