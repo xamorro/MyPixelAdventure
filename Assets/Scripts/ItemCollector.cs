@@ -10,7 +10,7 @@ public class ItemCollector : MonoBehaviour
     private GameObject sndManager;
 
     void Start() {
-        itemsText.text = "Items: " + items;
+        itemsText.text = "Almas: " + items;
         sndManager = GameObject.FindGameObjectWithTag("SoundManager");
     }
 
@@ -19,7 +19,7 @@ public class ItemCollector : MonoBehaviour
         if (col.gameObject.CompareTag("Collectible")) 
         {
             items++;
-            itemsText.text = "Items: " + items;
+            itemsText.text = "Almas: " + items;
             col.gameObject.GetComponent<Animator>().SetTrigger("collected");
             sndManager.GetComponent<SoundManager>().PlayFX(1);
             Destroy(col.gameObject);

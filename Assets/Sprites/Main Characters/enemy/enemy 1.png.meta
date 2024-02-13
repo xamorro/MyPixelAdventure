@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 132b57ff3a4d89c46851729ba28d7893
+guid: 08ba7ce5a2a66d444a4cf993384badf3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 48
+  spritePixelsToUnits: 170
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire Man Animations_Idle_0
+      name: enemy 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d9ae2a1540f6494d906580bb2c65321
-      internalID: -1453461129
+      spriteID: f0f24169848e1c44f8af346792bb92d2
+      internalID: 1802823849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Man Animations_Idle_1
+      name: enemy 1_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 600
         y: 0
-        width: 128
-        height: 128
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a631f581183228246962961dc1819c6a
-      internalID: -1183547711
+      spriteID: 386c987c805130949978e905ec67ccc7
+      internalID: 1407480572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Man Animations_Idle_2
+      name: enemy 1_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 1200
         y: 0
-        width: 128
-        height: 128
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 360d9775357cc1e4c9b66ba650640f57
-      internalID: 1925382013
+      spriteID: 6cf434605a54ce748b347951e5afbb05
+      internalID: 1248742261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Man Animations_Idle_3
+      name: enemy 1_3
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1800
         y: 0
-        width: 128
-        height: 128
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,50 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a1f79001ed44ea43b27f567e0294f4c
-      internalID: -1584830432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Man Animations_Idle_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eba16368690778542b9258b28f146d2d
-      internalID: 403753506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Man Animations_Idle_5
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3ac88dacbac4884a83b2ff4064821fc
-      internalID: 2059603669
+      spriteID: 75f584ee3fc58f34bbec6afb5af3c38d
+      internalID: -4166526
       vertices: []
       indices: 
       edges: []
@@ -272,12 +230,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fire Man Animations_Idle_0: -1453461129
-      Fire Man Animations_Idle_1: -1183547711
-      Fire Man Animations_Idle_2: 1925382013
-      Fire Man Animations_Idle_3: -1584830432
-      Fire Man Animations_Idle_4: 403753506
-      Fire Man Animations_Idle_5: 2059603669
+      enemy 1_0: 1802823849
+      enemy 1_1: 1407480572
+      enemy 1_2: 1248742261
+      enemy 1_3: -4166526
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

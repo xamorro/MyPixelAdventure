@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 132b57ff3a4d89c46851729ba28d7893
+guid: 908add19b153bd44db8c9cc1c8049553
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 48
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,13 +136,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire Man Animations_Idle_0
+      name: disco_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d9ae2a1540f6494d906580bb2c65321
-      internalID: -1453461129
+      spriteID: 221d04eb816246f49b8e6228a806538a
+      internalID: -1653931603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Man Animations_Idle_1
+      name: disco_1
       rect:
         serializedVersion: 2
-        x: 128
+        x: 16
         y: 0
-        width: 128
-        height: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a631f581183228246962961dc1819c6a
-      internalID: -1183547711
+      spriteID: 5de68cc1d5643fa45ace61260fb1d470
+      internalID: -750792811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Man Animations_Idle_2
+      name: disco_2
       rect:
         serializedVersion: 2
-        x: 256
+        x: 32
         y: 0
-        width: 128
-        height: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 360d9775357cc1e4c9b66ba650640f57
-      internalID: 1925382013
+      spriteID: 296d3898c4a242c4f9da36b8303b3f80
+      internalID: 1303879486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fire Man Animations_Idle_3
+      name: disco_3
       rect:
         serializedVersion: 2
-        x: 384
+        x: 48
         y: 0
-        width: 128
-        height: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,50 +213,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a1f79001ed44ea43b27f567e0294f4c
-      internalID: -1584830432
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Man Animations_Idle_4
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eba16368690778542b9258b28f146d2d
-      internalID: 403753506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire Man Animations_Idle_5
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 0
-        width: 128
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3ac88dacbac4884a83b2ff4064821fc
-      internalID: 2059603669
+      spriteID: 532e94da7336c3743ab84582a3f20568
+      internalID: 637896115
       vertices: []
       indices: 
       edges: []
@@ -272,12 +230,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Fire Man Animations_Idle_0: -1453461129
-      Fire Man Animations_Idle_1: -1183547711
-      Fire Man Animations_Idle_2: 1925382013
-      Fire Man Animations_Idle_3: -1584830432
-      Fire Man Animations_Idle_4: 403753506
-      Fire Man Animations_Idle_5: 2059603669
+      disco_0: -1653931603
+      disco_1: -750792811
+      disco_2: 1303879486
+      disco_3: 637896115
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
